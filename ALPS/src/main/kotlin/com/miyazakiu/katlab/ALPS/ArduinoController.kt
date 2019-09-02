@@ -1,7 +1,10 @@
 package com.miyazakiu.katlab.ALPS
 
+import com.miyazakiu.katlab.ALPS.parser.arduino.CPP14Lexer
+import com.miyazakiu.katlab.ALPS.parser.arduino.CPP14Parser
+import org.antlr.v4.runtime.CharStreams
+import org.antlr.v4.runtime.CommonTokenStream
 import org.springframework.stereotype.Controller
-import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.*
 
 /**
@@ -39,6 +42,20 @@ class ArduinoController {
         val json = """[{"aaa": ${sourceCode}}]"""
         println(json)
         return json
+    }
+
+    /**
+     * 遊び場のメソッド
+     * @return とりあえずの適当な値
+     */
+    @RequestMapping(value = ["playground"])
+    fun sampleParse(): String {
+        val text = "int a = 0;"
+        val lexer = CPP14Lexer(CharStreams.fromString(text))
+        val tokens = CommonTokenStream(lexer)
+        val parser = CPP14Parser(tokens)
+        print(parser)
+        return "やあ！"
     }
 
 }
