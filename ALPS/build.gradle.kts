@@ -17,10 +17,11 @@ repositories {
 }
 
 dependencies {
-	antlr("org.antlr:antlr4:4.7.1")
-	implementation("org.antlr:antlr4-runtime:4.7.1")
+	antlr("org.antlr:antlr4:4.7.2")
+//	implementation("org.antlr:antlr4-runtime:4.7.2")
 	implementation("com.squareup.moshi:moshi-kotlin:1.8.0")
 	implementation("org.springframework.boot:spring-boot-starter")
+	implementation("org.springframework.boot:spring-boot-devtools")
 	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
