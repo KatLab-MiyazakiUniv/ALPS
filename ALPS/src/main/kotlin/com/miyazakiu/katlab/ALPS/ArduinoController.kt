@@ -1,9 +1,14 @@
 package com.miyazakiu.katlab.ALPS
 
+import ArduinoListener
+import ArduinoPinStatus
 import com.miyazakiu.katlab.ALPS.parser.CPP14Lexer
 import com.miyazakiu.katlab.ALPS.parser.CPP14Parser
+import com.squareup.moshi.Moshi
 import org.antlr.v4.runtime.CharStreams
 import org.antlr.v4.runtime.CommonTokenStream
+import org.antlr.v4.runtime.tree.ParseTreeWalker
+import org.springframework.boot.runApplication
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.*
 import java.net.URLDecoder
@@ -50,18 +55,22 @@ class ArduinoController {
     @RequestMapping(value = ["parse2"], method = [RequestMethod.POST])
     @ResponseBody
     fun arduinoParse2(@RequestBody sourceCode: String): String {
-        println("${sourceCode}")
         // URLエンコードされるのでそれをデコードしてあげる
         val encodedString: String = URLDecoder.decode(sourceCode, "UTF-8")
-        val json = "[{\"received\": $encodedString}]"
-        println("${encodedString}")
-        val cppClassContent = encodedString
-        println(cppClassContent)
-        val cPP14Lexer = CPP14Lexer(CharStreams.fromString(cppClassContent))
+        println("受取った文字列は，")
+        println(encodedString)
+        val cPP14Lexer = CPP14Lexer(CharStreams.fromString(encodedString))
         val commonTokenStream = CommonTokenStream(cPP14Lexer)
         val cpp14Parser = CPP14Parser(commonTokenStream)
         val parseTree = cpp14Parser.translationunit()
+        val walker = ParseTreeWalker()
+        val arduinoListener = ArduinoListener()
+        walker.walk(arduinoListener, parseTree)
+        // json出力のためのMoshiの設定
+        val adapter = Moshi.Builder().build().adapter(ArduinoPinStatus::class.java)
+        val json = adapter.indent("   ").toJson(arduinoListener.getArduinoPinStatus())
         println("done...")
+
         return json
     }
 
@@ -87,10 +96,20 @@ class ArduinoController {
     fun sampleParse(): String {
         val cppClassContent = "void setup() { Serial.begin(9800); }"
         println(cppClassContent)
-        val cPP14Lexer = CPP14Lexer(CharStreams.fromString(cppClassContent))
-        val commonTokenStream = CommonTokenStream(cPP14Lexer)
-        val cpp14Parser = CPP14Parser(commonTokenStream)
-        val parseTree = cpp14Parser.translationunit()
+//        val cPP14Lexer = CPP14Lexer(CharStreams.fromString(cppClassContent))
+//        val commonTokenStream = CommonTokenStream(cPP14Lexer)
+//        val cpp14Parser = CPP14Parser(commonTokenStream)
+//        val parseTree = cpp14Parser.translationunit()
+//        val walker = ParseTreeWalker()
+//        val arduinoListener = ArduinoListener()
+//        walker.walk(arduinoListener, parseTree)
+//        // json出力のためのMoshiの設定
+//        val adapter = Moshi.Builder().build().adapter(ArduinoPinStatus::class.java)
+//        val json = adapter.indent("   ").toJson(arduinoListener.getArduinoPinStatus())
         return "やあ！"
     }
+
+//    fun main(args: Array<String>) {
+//        println()
+//    }
 }

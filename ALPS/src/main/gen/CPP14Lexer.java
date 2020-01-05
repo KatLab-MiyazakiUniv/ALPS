@@ -1,6 +1,4 @@
-// ANTLR 4.7.2
-package com.miyazakiu.katlab.ALPS.parser;
-
+// Generated from /Users/tatsuminishida/GitHub/ALPS/ALPS/src/main/antlr/CPP14.g4 by ANTLR 4.7.2
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;

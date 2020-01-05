@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
 	antlr("org.antlr:antlr4:4.7.2")
-//	implementation("org.antlr:antlr4-runtime:4.7.2")
+	implementation("org.antlr:antlr4-runtime:4.7.2")
 	implementation("com.squareup.moshi:moshi-kotlin:1.8.0")
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.springframework.boot:spring-boot-devtools")

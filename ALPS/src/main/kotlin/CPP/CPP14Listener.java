@@ -1,5 +1,5 @@
-// ANTLR 4.7.2
-package com.miyazakiu.katlab.ALPS.parser;
+package CPP;
+
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**

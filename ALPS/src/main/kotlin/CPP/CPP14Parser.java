@@ -1,5 +1,4 @@
-// ANTLR 4.7.2
-package com.miyazakiu.katlab.ALPS.parser;
+package CPP;
 
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -7,8 +6,6 @@ import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.misc.*;
 import org.antlr.v4.runtime.tree.*;
 import java.util.List;
-import java.util.Iterator;
-import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class CPP14Parser extends Parser {
@@ -283,11 +280,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_translationunit; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTranslationunit(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTranslationunit(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTranslationunit(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTranslationunit(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -350,11 +347,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_primaryexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterPrimaryexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterPrimaryexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitPrimaryexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitPrimaryexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -451,11 +448,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_idexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterIdexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterIdexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitIdexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitIdexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -525,11 +522,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_unqualifiedid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterUnqualifiedid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterUnqualifiedid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitUnqualifiedid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitUnqualifiedid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -625,11 +622,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_qualifiedid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterQualifiedid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterQualifiedid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitQualifiedid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitQualifiedid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -697,11 +694,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_nestednamespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNestednamespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNestednamespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNestednamespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNestednamespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -842,11 +839,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_lambdaexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterLambdaexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterLambdaexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitLambdaexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitLambdaexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -901,11 +898,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_lambdaintroducer; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterLambdaintroducer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterLambdaintroducer(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitLambdaintroducer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitLambdaintroducer(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -962,11 +959,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_lambdacapture; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterLambdacapture(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterLambdacapture(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitLambdacapture(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitLambdacapture(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -1029,11 +1026,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_capturedefault; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterCapturedefault(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterCapturedefault(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitCapturedefault(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitCapturedefault(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -1087,11 +1084,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_capturelist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterCapturelist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterCapturelist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitCapturelist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitCapturelist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -1190,11 +1187,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_capture; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterCapture(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterCapture(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitCapture(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitCapture(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -1247,11 +1244,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_simplecapture; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterSimplecapture(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterSimplecapture(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitSimplecapture(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitSimplecapture(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -1317,11 +1314,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_initcapture; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterInitcapture(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterInitcapture(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitInitcapture(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitInitcapture(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -1394,11 +1391,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_lambdadeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterLambdadeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterLambdadeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitLambdadeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitLambdadeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -1528,11 +1525,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_postfixexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterPostfixexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterPostfixexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitPostfixexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitPostfixexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -1897,11 +1894,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_typeidofexpr; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTypeidofexpr(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTypeidofexpr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTypeidofexpr(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTypeidofexpr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -1939,11 +1936,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_typeidofthetypeid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTypeidofthetypeid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTypeidofthetypeid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTypeidofthetypeid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTypeidofthetypeid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -1983,11 +1980,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterExpressionlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterExpressionlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitExpressionlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitExpressionlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -2042,11 +2039,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_pseudodestructorname; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterPseudodestructorname(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterPseudodestructorname(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitPseudodestructorname(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitPseudodestructorname(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -2183,11 +2180,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_unaryexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterUnaryexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterUnaryexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitUnaryexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitUnaryexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -2334,11 +2331,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_unaryoperator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterUnaryoperator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterUnaryoperator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitUnaryoperator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitUnaryoperator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -2400,11 +2397,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_newexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNewexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNewexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNewexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNewexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -2528,11 +2525,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_newplacement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNewplacement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNewplacement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNewplacement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNewplacement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -2579,11 +2576,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_newtypeid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNewtypeid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNewtypeid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNewtypeid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNewtypeid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -2639,11 +2636,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_newdeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNewdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNewdeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNewdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNewdeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -2724,11 +2721,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_noptrnewdeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNoptrnewdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNoptrnewdeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNoptrnewdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNoptrnewdeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -2835,11 +2832,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_newinitializer; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNewinitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNewinitializer(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNewinitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNewinitializer(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -2911,11 +2908,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_deleteexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterDeleteexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterDeleteexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitDeleteexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitDeleteexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3000,11 +2997,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_noexceptexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNoexceptexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNoexceptexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNoexceptexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNoexceptexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3058,11 +3055,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_castexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterCastexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterCastexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitCastexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitCastexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3126,11 +3123,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_pmexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterPmexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterPmexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitPmexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitPmexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3230,11 +3227,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_multiplicativeexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterMultiplicativeexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterMultiplicativeexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitMultiplicativeexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitMultiplicativeexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3345,11 +3342,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_additiveexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAdditiveexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAdditiveexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAdditiveexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAdditiveexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3449,11 +3446,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_shiftexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterShiftexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterShiftexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitShiftexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitShiftexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3528,11 +3525,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_shiftoperator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterShiftoperator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterShiftoperator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitShiftoperator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitShiftoperator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3588,11 +3585,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_relationalexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterRelationalexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterRelationalexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitRelationalexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitRelationalexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3715,11 +3712,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_equalityexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterEqualityexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterEqualityexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitEqualityexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitEqualityexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3817,11 +3814,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_andexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAndexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAndexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAndexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAndexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3901,11 +3898,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_exclusiveorexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterExclusiveorexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterExclusiveorexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitExclusiveorexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitExclusiveorexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -3985,11 +3982,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_inclusiveorexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterInclusiveorexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterInclusiveorexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitInclusiveorexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitInclusiveorexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -4068,11 +4065,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_logicalandexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterLogicalandexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterLogicalandexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitLogicalandexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitLogicalandexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -4169,11 +4166,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_logicalorexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterLogicalorexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterLogicalorexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitLogicalorexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitLogicalorexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -4275,11 +4272,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_conditionalexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterConditionalexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterConditionalexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitConditionalexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitConditionalexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -4352,11 +4349,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_assignmentexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAssignmentexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAssignmentexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAssignmentexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAssignmentexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -4428,11 +4425,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_assignmentoperator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAssignmentoperator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAssignmentoperator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAssignmentoperator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAssignmentoperator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -4485,11 +4482,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterExpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterExpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitExpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitExpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -4565,11 +4562,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_constantexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterConstantexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterConstantexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitConstantexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitConstantexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -4633,11 +4630,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterStatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterStatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitStatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitStatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -4803,11 +4800,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_labeledstatement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterLabeledstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterLabeledstatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitLabeledstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitLabeledstatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -4913,11 +4910,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expressionstatement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterExpressionstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterExpressionstatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitExpressionstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitExpressionstatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -4970,11 +4967,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_compoundstatement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterCompoundstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterCompoundstatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitCompoundstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitCompoundstatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -5030,11 +5027,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_statementseq; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterStatementseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterStatementseq(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitStatementseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitStatementseq(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -5119,11 +5116,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_selectionstatement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterSelectionstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterSelectionstatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitSelectionstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitSelectionstatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -5227,11 +5224,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_condition; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterCondition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterCondition(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitCondition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitCondition(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -5344,11 +5341,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_iterationstatement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterIterationstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterIterationstatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitIterationstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitIterationstatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -5481,11 +5478,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_forinitstatement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterForinitstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterForinitstatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitForinitstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitForinitstatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -5544,11 +5541,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_forrangedeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterForrangedeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterForrangedeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitForrangedeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitForrangedeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -5604,11 +5601,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_forrangeinitializer; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterForrangeinitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterForrangeinitializer(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitForrangeinitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitForrangeinitializer(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -5725,11 +5722,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_jumpstatement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterJumpstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterJumpstatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitJumpstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitJumpstatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -5828,11 +5825,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_declarationstatement; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterDeclarationstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterDeclarationstatement(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitDeclarationstatement(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitDeclarationstatement(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -5875,11 +5872,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_declarationseq; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterDeclarationseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterDeclarationseq(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitDeclarationseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitDeclarationseq(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -5977,11 +5974,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_declaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterDeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterDeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitDeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitDeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6104,11 +6101,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_blockdeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterBlockdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterBlockdeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitBlockdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitBlockdeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6210,11 +6207,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_aliasdeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAliasdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAliasdeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAliasdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAliasdeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6280,11 +6277,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_simpledeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterSimpledeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterSimpledeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitSimpledeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitSimpledeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6423,11 +6420,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_static_assertdeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterStatic_assertdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterStatic_assertdeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitStatic_assertdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitStatic_assertdeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6477,11 +6474,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_emptydeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterEmptydeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterEmptydeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitEmptydeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitEmptydeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6522,11 +6519,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_attributedeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAttributedeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAttributedeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAttributedeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAttributedeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6577,11 +6574,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_declspecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterDeclspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterDeclspecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitDeclspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitDeclspecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6699,11 +6696,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_declspecifierseq; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterDeclspecifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterDeclspecifierseq(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitDeclspecifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitDeclspecifierseq(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6770,11 +6767,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_storageclassspecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterStorageclassspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterStorageclassspecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitStorageclassspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitStorageclassspecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6823,11 +6820,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_functionspecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterFunctionspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterFunctionspecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitFunctionspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitFunctionspecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6874,11 +6871,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_typedefname; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTypedefname(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTypedefname(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTypedefname(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTypedefname(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6924,11 +6921,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_typespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTypespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTypespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -6997,11 +6994,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_trailingtypespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTrailingtypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTrailingtypespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTrailingtypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTrailingtypespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -7096,11 +7093,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_typespecifierseq; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTypespecifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTypespecifierseq(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTypespecifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTypespecifierseq(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -7171,11 +7168,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_trailingtypespecifierseq; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTrailingtypespecifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTrailingtypespecifierseq(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTrailingtypespecifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTrailingtypespecifierseq(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -7264,11 +7261,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_simpletypespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterSimpletypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterSimpletypespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitSimpletypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitSimpletypespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -7449,11 +7446,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_thetypename; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterThetypename(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterThetypename(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitThetypename(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitThetypename(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -7524,11 +7521,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_decltypespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterDecltypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterDecltypespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitDecltypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitDecltypespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -7605,11 +7602,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_elaboratedtypespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterElaboratedtypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterElaboratedtypespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitElaboratedtypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitElaboratedtypespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -7725,11 +7722,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_enumname; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterEnumname(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterEnumname(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitEnumname(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitEnumname(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -7775,11 +7772,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_enumspecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterEnumspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterEnumspecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitEnumspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitEnumspecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -7865,11 +7862,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_enumhead; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterEnumhead(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterEnumhead(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitEnumhead(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitEnumhead(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -7985,11 +7982,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_opaqueenumdeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterOpaqueenumdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterOpaqueenumdeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitOpaqueenumdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitOpaqueenumdeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8054,11 +8051,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_enumkey; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterEnumkey(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterEnumkey(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitEnumkey(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitEnumkey(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8123,11 +8120,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_enumbase; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterEnumbase(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterEnumbase(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitEnumbase(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitEnumbase(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8173,11 +8170,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_enumeratorlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterEnumeratorlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterEnumeratorlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitEnumeratorlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitEnumeratorlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8257,11 +8254,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_enumeratordefinition; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterEnumeratordefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterEnumeratordefinition(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitEnumeratordefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitEnumeratordefinition(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8316,11 +8313,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_enumerator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterEnumerator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterEnumerator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitEnumerator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitEnumerator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8363,11 +8360,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_namespacename; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNamespacename(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNamespacename(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNamespacename(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNamespacename(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8418,11 +8415,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_originalnamespacename; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterOriginalnamespacename(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterOriginalnamespacename(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitOriginalnamespacename(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitOriginalnamespacename(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8465,11 +8462,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_namespacedefinition; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNamespacedefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNamespacedefinition(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNamespacedefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNamespacedefinition(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8525,11 +8522,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_namednamespacedefinition; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNamednamespacedefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNamednamespacedefinition(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNamednamespacedefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNamednamespacedefinition(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8587,11 +8584,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_originalnamespacedefinition; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterOriginalnamespacedefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterOriginalnamespacedefinition(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitOriginalnamespacedefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitOriginalnamespacedefinition(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8657,11 +8654,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_extensionnamespacedefinition; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterExtensionnamespacedefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterExtensionnamespacedefinition(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitExtensionnamespacedefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitExtensionnamespacedefinition(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8724,11 +8721,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_unnamednamespacedefinition; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterUnnamednamespacedefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterUnnamednamespacedefinition(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitUnnamednamespacedefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitUnnamednamespacedefinition(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8785,11 +8782,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_namespacebody; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNamespacebody(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNamespacebody(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNamespacebody(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNamespacebody(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8836,11 +8833,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_namespacealias; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNamespacealias(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNamespacealias(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNamespacealias(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNamespacealias(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8884,11 +8881,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_namespacealiasdefinition; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNamespacealiasdefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNamespacealiasdefinition(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNamespacealiasdefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNamespacealiasdefinition(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -8939,11 +8936,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_qualifiednamespacespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterQualifiednamespacespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterQualifiednamespacespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitQualifiednamespacespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitQualifiednamespacespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9000,11 +8997,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_usingdeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterUsingdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterUsingdeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitUsingdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitUsingdeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9089,11 +9086,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_usingdirective; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterUsingdirective(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterUsingdirective(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitUsingdirective(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitUsingdirective(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9162,11 +9159,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_asmdefinition; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAsmdefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAsmdefinition(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAsmdefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAsmdefinition(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9221,11 +9218,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_linkagespecification; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterLinkagespecification(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterLinkagespecification(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitLinkagespecification(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitLinkagespecification(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9302,11 +9299,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_attributespecifierseq; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAttributespecifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAttributespecifierseq(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAttributespecifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAttributespecifierseq(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9391,11 +9388,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_attributespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAttributespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAttributespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAttributespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAttributespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9465,11 +9462,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_alignmentspecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAlignmentspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAlignmentspecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAlignmentspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAlignmentspecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9560,11 +9557,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_attributelist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAttributelist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAttributelist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAttributelist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAttributelist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9693,11 +9690,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_attribute; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAttribute(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAttribute(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAttribute(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAttribute(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9748,11 +9745,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_attributetoken; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAttributetoken(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAttributetoken(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAttributetoken(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAttributetoken(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9807,11 +9804,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_attributescopedtoken; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAttributescopedtoken(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAttributescopedtoken(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAttributescopedtoken(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAttributescopedtoken(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9853,11 +9850,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_attributenamespace; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAttributenamespace(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAttributenamespace(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAttributenamespace(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAttributenamespace(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9899,11 +9896,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_attributeargumentclause; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAttributeargumentclause(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAttributeargumentclause(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAttributeargumentclause(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAttributeargumentclause(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -9950,11 +9947,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_balancedtokenseq; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterBalancedtokenseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterBalancedtokenseq(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitBalancedtokenseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitBalancedtokenseq(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10042,11 +10039,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_balancedtoken; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterBalancedtoken(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterBalancedtoken(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitBalancedtoken(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitBalancedtoken(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10124,11 +10121,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_initdeclaratorlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterInitdeclaratorlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterInitdeclaratorlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitInitdeclaratorlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitInitdeclaratorlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10207,11 +10204,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_initdeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterInitdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterInitdeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitInitdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitInitdeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10270,11 +10267,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_declarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterDeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterDeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitDeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitDeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10337,11 +10334,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_ptrdeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterPtrdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterPtrdeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitPtrdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitPtrdeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10415,11 +10412,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_noptrdeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNoptrdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNoptrdeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNoptrdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNoptrdeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10579,11 +10576,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_parametersandqualifiers; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterParametersandqualifiers(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterParametersandqualifiers(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitParametersandqualifiers(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitParametersandqualifiers(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10671,11 +10668,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_trailingreturntype; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTrailingreturntype(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTrailingreturntype(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTrailingreturntype(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTrailingreturntype(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10735,11 +10732,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_ptroperator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterPtroperator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterPtroperator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitPtroperator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitPtroperator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10875,11 +10872,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_cvqualifierseq; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterCvqualifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterCvqualifierseq(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitCvqualifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitCvqualifierseq(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10928,11 +10925,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_cvqualifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterCvqualifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterCvqualifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitCvqualifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitCvqualifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -10979,11 +10976,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_refqualifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterRefqualifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterRefqualifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitRefqualifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitRefqualifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -11033,11 +11030,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_declaratorid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterDeclaratorid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterDeclaratorid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitDeclaratorid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitDeclaratorid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -11091,11 +11088,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_thetypeid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterThetypeid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterThetypeid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitThetypeid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitThetypeid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -11157,11 +11154,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_abstractdeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAbstractdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAbstractdeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAbstractdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAbstractdeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -11239,11 +11236,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_ptrabstractdeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterPtrabstractdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterPtrabstractdeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitPtrabstractdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitPtrabstractdeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -11330,11 +11327,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_noptrabstractdeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNoptrabstractdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNoptrabstractdeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNoptrabstractdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNoptrabstractdeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -11497,11 +11494,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_abstractpackdeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAbstractpackdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAbstractpackdeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAbstractpackdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAbstractpackdeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -11575,11 +11572,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_noptrabstractpackdeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNoptrabstractpackdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNoptrabstractpackdeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNoptrabstractpackdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNoptrabstractpackdeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -11694,11 +11691,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_parameterdeclarationclause; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterParameterdeclarationclause(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterParameterdeclarationclause(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitParameterdeclarationclause(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitParameterdeclarationclause(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -11778,11 +11775,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_parameterdeclarationlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterParameterdeclarationlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterParameterdeclarationlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitParameterdeclarationlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitParameterdeclarationlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -11871,11 +11868,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_parameterdeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterParameterdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterParameterdeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitParameterdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitParameterdeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12027,11 +12024,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_functiondefinition; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterFunctiondefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterFunctiondefinition(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitFunctiondefinition(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitFunctiondefinition(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12114,11 +12111,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_functionbody; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterFunctionbody(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterFunctionbody(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitFunctionbody(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitFunctionbody(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12209,11 +12206,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_initializer; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterInitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterInitializer(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitInitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitInitializer(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12277,11 +12274,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_braceorequalinitializer; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterBraceorequalinitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterBraceorequalinitializer(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitBraceorequalinitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitBraceorequalinitializer(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12341,11 +12338,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_initializerclause; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterInitializerclause(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterInitializerclause(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitInitializerclause(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitInitializerclause(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12458,11 +12455,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_initializerlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterInitializerlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterInitializerlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitInitializerlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitInitializerlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12561,11 +12558,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_bracedinitlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterBracedinitlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterBracedinitlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitBracedinitlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitBracedinitlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12636,11 +12633,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_classname; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterClassname(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterClassname(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitClassname(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitClassname(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12698,11 +12695,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_classspecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterClassspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterClassspecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitClassspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitClassspecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12769,11 +12766,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_classhead; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterClasshead(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterClasshead(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitClasshead(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitClasshead(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12882,11 +12879,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_classheadname; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterClassheadname(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterClassheadname(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitClassheadname(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitClassheadname(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12934,11 +12931,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_classvirtspecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterClassvirtspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterClassvirtspecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitClassvirtspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitClassvirtspecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -12978,11 +12975,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_classkey; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterClasskey(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterClasskey(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitClasskey(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitClasskey(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -13038,11 +13035,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_memberspecification; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterMemberspecification(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterMemberspecification(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitMemberspecification(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitMemberspecification(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -13195,11 +13192,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_memberdeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterMemberdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterMemberdeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitMemberdeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitMemberdeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -13322,11 +13319,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_memberdeclaratorlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterMemberdeclaratorlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterMemberdeclaratorlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitMemberdeclaratorlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitMemberdeclaratorlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -13419,11 +13416,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_memberdeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterMemberdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterMemberdeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitMemberdeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitMemberdeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -13539,11 +13536,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_virtspecifierseq; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterVirtspecifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterVirtspecifierseq(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitVirtspecifierseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitVirtspecifierseq(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -13616,11 +13613,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_virtspecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterVirtspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterVirtspecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitVirtspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitVirtspecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -13669,11 +13666,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_purespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterPurespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterPurespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitPurespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitPurespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -13717,11 +13714,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_baseclause; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterBaseclause(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterBaseclause(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitBaseclause(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitBaseclause(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -13768,11 +13765,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_basespecifierlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterBasespecifierlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterBasespecifierlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitBasespecifierlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitBasespecifierlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -13875,11 +13872,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_basespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterBasespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterBasespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitBasespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitBasespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14000,11 +13997,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_classordecltype; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterClassordecltype(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterClassordecltype(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitClassordecltype(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitClassordecltype(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14067,11 +14064,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_basetypespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterBasetypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterBasetypespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitBasetypespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitBasetypespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14111,11 +14108,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_accessspecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterAccessspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterAccessspecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitAccessspecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitAccessspecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14165,11 +14162,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_conversionfunctionid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterConversionfunctionid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterConversionfunctionid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitConversionfunctionid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitConversionfunctionid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14214,11 +14211,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_conversiontypeid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterConversiontypeid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterConversiontypeid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitConversiontypeid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitConversiontypeid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14271,11 +14268,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_conversiondeclarator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterConversiondeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterConversiondeclarator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitConversiondeclarator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitConversiondeclarator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14326,11 +14323,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_ctorinitializer; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterCtorinitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterCtorinitializer(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitCtorinitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitCtorinitializer(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14377,11 +14374,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_meminitializerlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterMeminitializerlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterMeminitializerlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitMeminitializerlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitMeminitializerlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14467,11 +14464,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_meminitializer; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterMeminitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterMeminitializer(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitMeminitializer(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitMeminitializer(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14542,11 +14539,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_meminitializerid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterMeminitializerid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterMeminitializerid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitMeminitializerid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitMeminitializerid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14600,11 +14597,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_operatorfunctionid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterOperatorfunctionid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterOperatorfunctionid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitOperatorfunctionid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitOperatorfunctionid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14647,11 +14644,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_literaloperatorid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterLiteraloperatorid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterLiteraloperatorid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitLiteraloperatorid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitLiteraloperatorid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14716,11 +14713,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_templatedeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTemplatedeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTemplatedeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTemplatedeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTemplatedeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14772,11 +14769,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_templateparameterlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTemplateparameterlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTemplateparameterlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTemplateparameterlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTemplateparameterlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14855,11 +14852,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_templateparameter; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTemplateparameter(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTemplateparameter(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTemplateparameter(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTemplateparameter(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -14926,11 +14923,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_typeparameter; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTypeparameter(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTypeparameter(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTypeparameter(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTypeparameter(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15135,11 +15132,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_simpletemplateid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterSimpletemplateid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterSimpletemplateid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitSimpletemplateid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitSimpletemplateid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15205,11 +15202,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_templateid; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTemplateid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTemplateid(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTemplateid(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTemplateid(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15296,11 +15293,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_templatename; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTemplatename(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTemplatename(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTemplatename(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTemplatename(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15345,11 +15342,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_templateargumentlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTemplateargumentlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTemplateargumentlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTemplateargumentlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTemplateargumentlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15451,11 +15448,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_templateargument; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTemplateargument(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTemplateargument(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTemplateargument(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTemplateargument(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15521,11 +15518,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_typenamespecifier; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTypenamespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTypenamespecifier(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTypenamespecifier(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTypenamespecifier(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15599,11 +15596,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_explicitinstantiation; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterExplicitinstantiation(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterExplicitinstantiation(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitExplicitinstantiation(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitExplicitinstantiation(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15659,11 +15656,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_explicitspecialization; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterExplicitspecialization(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterExplicitspecialization(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitExplicitspecialization(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitExplicitspecialization(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15713,11 +15710,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_tryblock; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTryblock(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTryblock(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTryblock(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTryblock(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15768,11 +15765,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_functiontryblock; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterFunctiontryblock(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterFunctiontryblock(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitFunctiontryblock(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitFunctiontryblock(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15830,11 +15827,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_handlerseq; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterHandlerseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterHandlerseq(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitHandlerseq(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitHandlerseq(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15890,11 +15887,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_handler; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterHandler(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterHandler(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitHandler(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitHandler(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -15952,11 +15949,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_exceptiondeclaration; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterExceptiondeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterExceptiondeclaration(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitExceptiondeclaration(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitExceptiondeclaration(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -16050,11 +16047,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_throwexpression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterThrowexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterThrowexpression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitThrowexpression(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitThrowexpression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -16107,11 +16104,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_exceptionspecification; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterExceptionspecification(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterExceptionspecification(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitExceptionspecification(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitExceptionspecification(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -16169,11 +16166,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_dynamicexceptionspecification; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterDynamicexceptionspecification(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterDynamicexceptionspecification(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitDynamicexceptionspecification(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitDynamicexceptionspecification(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -16233,11 +16230,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_typeidlist; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTypeidlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTypeidlist(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTypeidlist(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTypeidlist(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -16336,11 +16333,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_noexceptspecification; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterNoexceptspecification(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterNoexceptspecification(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitNoexceptspecification(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitNoexceptspecification(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -16435,11 +16432,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_theoperator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterTheoperator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterTheoperator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitTheoperator(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitTheoperator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -16815,11 +16812,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_literal; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterLiteral(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterLiteral(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitLiteral(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitLiteral(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -16912,11 +16909,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_booleanliteral; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterBooleanliteral(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterBooleanliteral(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitBooleanliteral(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitBooleanliteral(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -16963,11 +16960,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_pointerliteral; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterPointerliteral(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterPointerliteral(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitPointerliteral(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitPointerliteral(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
@@ -17008,11 +17005,11 @@ public class CPP14Parser extends Parser {
 		@Override public int getRuleIndex() { return RULE_userdefinedliteral; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).enterUserdefinedliteral(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).enterUserdefinedliteral(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CPP14Listener ) ((CPP14Listener)listener).exitUserdefinedliteral(this);
+			if ( listener instanceof CPP14Listener) ((CPP14Listener)listener).exitUserdefinedliteral(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
