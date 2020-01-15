@@ -92,9 +92,20 @@ class ArduinoListener : CPP14BaseListener() {
                 print("｛変数名=値｝のところがnullでヤンス．")
                 return
             }
+           val variableAssignment =
+                initDeclaratorListTree.getChild(0).getChild(1).getChild(0).getChild(1).getChild(0).getChild(0)
+                    .getChild(0).getChild(0).getChild(0).getChild(0).getChild(0).getChild(0).getChild(0)
+                    .getChild(0).getChild(0).getChild(0).getChild(0).getChild(0).getChild(0).getChild(0).getChild(0)
+                    .getChild(0).getChild(0)
+            // 変数に変数で代入している場合
+            if (variableAssignment is CPP14Parser.UnqualifiedidContext) {
+                this.variableValue = this.variable[variableAssignment.text]?.value.toString()
+                // 変数に普通に代入している場合
+            } else {
+                this.variableValue = initDeclaratorListTree.getChild(0).getChild(1).getChild(0).getChild(1).text
+            }
             // ここの書き方は，もっとおしゃれな書き方がきっとあると思います．
             this.variableName = initDeclaratorListTree.getChild(0).getChild(0).getChild(0).text
-            this.variableValue = initDeclaratorListTree.getChild(0).getChild(1).getChild(0).getChild(1).text
             // 変数名をKeyとして変数の値を書き変える．
             this.variable[this.variableName]?.value = this.variableValue
         }
@@ -168,8 +179,21 @@ class ArduinoListener : CPP14BaseListener() {
         }
         if (this.judge && ctx.getChild(0) is CPP14Parser.LogicalorexpressionContext && ctx.getChild(1) is CPP14Parser.AssignmentoperatorContext && ctx.getChild(2) is CPP14Parser.InitializerclauseContext) {
             println(variableTreeText)
+            val variableAssignment =
+                ctx.getChild(2).getChild(0).getChild(0).getChild(0).getChild(0).getChild(0)
+                    .getChild(0).getChild(0).getChild(0).getChild(0).getChild(0).getChild(0).getChild(0).getChild(0)
+                    .getChild(0).getChild(0).getChild(0).getChild(0).getChild(0)
+                    .getChild(0)
+            println(variableAssignment.javaClass)
+            val variableValue: String
+            // 変数に変数を代入している場合
+            if (variableAssignment is CPP14Parser.UnqualifiedidContext) {
+                variableValue = this.variable[variableAssignment.text]?.value.toString()
+                // 変数に普通に代入している場合
+            } else {
+                variableValue = ctx.getChild(2).text // 変数の値
+            }
             val variableName = ctx.getChild(0).text // 変数名
-            val variableValue = ctx.getChild(2).text // 変数の値
             this.variable[variableName]?.value = variableValue
             this.judge = false
         }
