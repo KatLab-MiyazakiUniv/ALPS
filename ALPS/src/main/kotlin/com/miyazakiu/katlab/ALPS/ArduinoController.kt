@@ -52,9 +52,9 @@ class ArduinoController {
      * @param sourceCode 解析したいソースコード
      * @return ADVISで解析するためのjson
      */
-    @RequestMapping(value = ["parse2"], method = [RequestMethod.POST])
+    @RequestMapping(value = ["parse"], method = [RequestMethod.POST])
     @ResponseBody
-    fun arduinoParse2(@RequestBody sourceCode: String): String {
+    fun arduinoParse2(sourceCode: String): String {
         // URLエンコードされるのでそれをデコードしてあげる
         val encodedString: String = URLDecoder.decode(sourceCode, "UTF-8")
         println("受取った文字列は，")
@@ -80,7 +80,7 @@ class ArduinoController {
      * @param sourceCode 解析したいソースコード
      * @return ADVISで解析するためのjson
      */
-    @RequestMapping(value = ["parse"], method = [RequestMethod.POST])
+    @RequestMapping(value = ["parse2"], method = [RequestMethod.POST])
     @ResponseBody
     fun arduinoParse(@RequestBody sourceCode: String): String {
         val json = "[{\"received\": $sourceCode}]"
